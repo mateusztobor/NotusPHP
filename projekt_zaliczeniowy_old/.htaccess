@@ -1,5 +1,0 @@
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-zA-Z-_0-9]+)/([a-zA-Z-_0-9]+)/?$ index.php?app=$1&id=$2 [L]
-RewriteRule ^([a-zA-Z-_0-9]+)/?$ index.php?app=$1 [L]
